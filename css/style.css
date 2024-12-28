@@ -1,0 +1,376 @@
+/*=======================================
+                Universal Start
+=======================================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+nav{
+    background: #FAE3B6;
+    padding: 30px 30px ;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+nav .parentDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parentDiv{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+
+/*=======================================
+                Universal End
+=======================================*/
+
+/* ................................................................................................................... */
+
+/*=======================================
+                Nav Bar Start
+=======================================*/
+nav .logo{
+    width: 15%;
+    cursor: pointer;
+}
+nav .menuBar{
+    width: 65%;
+}
+nav .button{
+    width: 23%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 59px;
+}
+.menuBar ul li{
+    padding: 5px;
+    color: black ;
+    border: 2px solid transparent;
+}
+.menuBar ul li:hover{
+     border: 2px solid rgb(82, 6, 6);
+}
+nav .button a{
+    text-decoration: none;
+    color: black;
+    background: none;
+    width: 121px;
+    height: 57px;
+    padding: 10px 28px;
+    border-radius: 10px;
+    border: 1px solid #fbc455;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+}
+nav .button a:hover{
+    background: #130f40;
+    color: white ;
+    border: 2px solid #130f40;
+}
+nav .button a:nth-child(2){
+    margin-left: 10px;
+}
+
+/*=======================================
+                Nav Bar End
+=======================================*/
+
+/* ................................................................................................................... */
+
+/*=======================================
+             Banner Part Start
+=======================================*/
+.banner{
+    background: #FAE3B6;
+    padding: 30px 30px ;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;    
+}
+.bannerPart1 h1{
+    width: 400px;
+    padding-bottom: 38px;
+}
+.bannerPart1 P{
+    width:553px;
+    padding-bottom:76px;
+}
+.parentDiv .bannerPart1{
+    width:60%;
+}
+.parentDiv .bannerPart2{
+    width:40%;
+}
+.bannerPart1 a{
+    background: black;
+    text-decoration: none;
+    color: white;
+    height:76px;
+    width: 319px;
+    padding: 26px 70px;
+    border-radius: 10px;
+    transition: 0.25s;
+    border: 3px solid transparent;
+}
+.bannerPart1 a:hover{
+    background: none;
+    color: black;
+    border: 3px solid #130f40;
+}
+.parentDiv .bannerPart2 {
+ 
+}
+.bannerPart2 img {
+ 
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+/*=======================================
+             Banner Part End
+=======================================*/
+/* ....................................................................................................... */
+/*=======================================
+             Collection Part Start
+=======================================*/
+.collection .parentDiv{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 130px;
+}
+.collection h1{
+    font-family: Frank Ruhl Libre;
+    font-size: 80px;
+    padding-top: 216px;
+    text-align: center;
+}
+.collection .sweater{
+    width: 350px;
+    height: 402px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.collection img{
+    width: 100%;
+    height: 100%;
+}
+.collection .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.3);
+    border-radius: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-top: 300px;
+    padding-left: 34px;
+    box-sizing: border-box;
+    transition: 0.6s;
+}
+.collection .overlay a{
+    font-size: 20px;
+    font-weight: 600;
+    width: 315px;
+    height: 57px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    padding: 9px 108px ;
+    text-decoration: none;
+}
+.sweater:hover .overlay{
+    top: 0;
+}
+
+.collection{
+    padding-bottom:236px;
+}
+
+/*=======================================
+             Collection Part End
+=======================================*/
+/* ............................................................................................. */
+/*=======================================
+             Fasion Part Start
+=======================================*/
+.fasionText h2{
+    padding-top:71px;
+    padding-left:124px;
+    padding-bottom: 63px;
+    width: 437px;
+    height: 162px;
+    font-weight: 700px;
+    font-size:64px;
+}
+.fasionText p{
+    width: 433px;
+    height: 186px;
+    font-weight: 800px;
+    font-size:24px;
+    line-height: 36px;
+    padding-left:124px;
+    font-family: "Poppins";
+}
+.imagePartfasion{
+    padding-bottom: 335px ;
+}
+.fasionPart{
+    position: relative;
+}
+.funFact{
+    width: 793px;
+    border-radius:20px;
+    background: #FEECC8;
+    position:absolute;
+    top: 61%;
+    right: 104px;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 0px;
+}
+.funFact h3{
+    font-weight:700;
+    font-size:64px;
+    font-family: "Podkova";
+}
+.funFact p{
+    font-weight:500;
+    font-size:28px;
+    font-family: "Poppins";
+}
+.funFact div{
+    border-right: 1px solid;
+    padding-right: 40px;
+}
+.funFact div:last-child{
+    border-right: 0;
+    padding-right: 0;
+}
+/*=======================================
+             Fasion Part End
+=======================================*/
+/* ....................................................................................... */
+/*=======================================
+             Bottom Part Start
+=======================================*/
+.bottomPart{
+    background: #CFA485;
+    padding-bottom: 221px; 
+}
+.bottomPart .container .parentDiv .bottomLeft{
+    width: 40%;
+}
+.bottomPart .container .parentDiv .cart{
+    width:60%;
+}
+.bottomLeft{
+    margin-top: 36px;
+    margin-left: 149px;    
+}
+.bottomLeft h4{
+    font-family: "Frank Ruhl Libre";
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+    width: 437px;
+    padding-bottom: 43px;
+}
+.bottomLeft p{
+    font-family: "Frank Ruhl Libre";
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    width: 437px;
+    padding-bottom:80px;
+}
+.bottomLeft a{
+    background: black;
+    text-decoration: none;
+    color: white;
+    height:76px;
+    width: 319px;
+    padding: 26px 70px;
+    border-radius: 10px;
+    transition: 0.25s;
+    border: 3px solid transparent;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+}
+.bottomLeft a:hover{
+    background: none;
+    color: black;
+    border: 3px solid #130f40;
+}
+.card1{
+    width: 366px;
+    height: 551px;
+    background-color: white;
+    border-top-left-radius: 60px ;
+    border-top-right-radius: 60px ;
+    margin: 62px;
+}
+.card1 img{
+    width: 366px;
+    height: 424px;
+    border-top-left-radius: 60px ;
+    border-top-right-radius: 60px ;
+}
+.bottomPart .star ul{
+    display: flex;
+}
+.star ul li i{
+    color: #FFAF37;
+    font-size: 18px;
+}
+.bottomLeft{
+    margin-top: 32px ;
+}
+.cartBottom{
+    margin-top: 14px;
+    margin-left: 22px;
+    margin-bottom: 50px;
+
+}
+.star ul{
+    width:122px;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.bottomPart .cartBottom .parentDiv{
+    width: 213px;
+    justify-content: space-between;
+}
+.cartBottom h3{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 22px;
+}
+.cartBottom p{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 24px;
+}
+.cartBottom .dollerhide{
+    font-family: poppins;
+    color: #C4C4C4;
+    font-weight: 300;
+}
+/*=======================================
+             Bottom Part end
+=======================================*/
+
