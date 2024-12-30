@@ -374,3 +374,10 @@ nav .button a:nth-child(2){
              Bottom Part end
 =======================================*/
 
+.footer ul {
+    display: flex;
+}
+.footer ul li {
+    list-style: circle !important;
+    justify-content: center;
+}
